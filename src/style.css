@@ -19,6 +19,7 @@ body {
 }
 .weather {
   background: #002b5b;
+  border: 1px solid #fff;
   border-radius: 16px;
   box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
   color: #878787;
@@ -43,7 +44,10 @@ body {
   line-height: 20px;
   padding: 15px 20px;
 }
-
+.weather .search-input:hover {
+  border: 2px solid #ff5c8d;
+  transition: all 0.15s ease-in-out;
+}
 .weather .btn {
   background: #b667f1;
   border: none;
@@ -54,7 +58,8 @@ body {
   padding: 15px 0;
 }
 .weather .btn:hover {
-  background-color: #b667f1;
+  background-color: #371b58;
+  border: 2px solid #ff5c8d;
   text-decoration: none;
   transition: all 0.15s ease-in-out;
 }
