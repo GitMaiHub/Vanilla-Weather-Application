@@ -37,9 +37,10 @@ body {
   background: #f9f7fe;
   border: none;
   border-radius: 6px;
-  color: rgba(39, 33, 66, 0.4);
+  color: #371b58;
   display: inline-block;
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: 600;
   height: 50px;
   line-height: 20px;
   padding: 15px 20px;
@@ -52,10 +53,10 @@ body {
   background: #b667f1;
   border: none;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700;
   height: 50px;
-  padding: 15px 0;
+  padding: 10px 0;
 }
 .weather .btn:hover {
   background-color: #371b58;
