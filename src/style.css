@@ -116,9 +116,9 @@ body {
 }
 .forecast {
   border-bottom: 1px solid #f9f7fe;
-  margin: 40px 0;
+  margin: 20px 0;
 
-  padding-bottom: 50px;
+  padding-bottom: 40px;
   text-align: center;
 }
 .forecast-time {
@@ -136,4 +136,15 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: 1.5;
+}
+.hosting {
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+}
+.coder {
+  color: #fff;
+  font-size: 14px;
+  line-height: 0px;
+  text-align: center;
 }
