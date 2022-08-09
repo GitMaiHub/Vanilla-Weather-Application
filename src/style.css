@@ -114,11 +114,14 @@ body {
   position: relative;
   top: -34px;
 }
+hr {
+  border: 1px dotted #fff;
+}
 .forecast {
   border-bottom: 1px solid #f9f7fe;
-  margin: 20px 0;
+  margin: 30px 0;
 
-  padding-bottom: 40px;
+  padding-bottom: 30px;
   text-align: center;
 }
 .forecast-time {
