@@ -86,6 +86,8 @@ body {
   line-height: 20px;
   list-style: none;
   margin-bottom: 5px;
+}
+.weather li:first-letter {
   text-transform: capitalize;
 }
 
