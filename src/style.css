@@ -45,7 +45,7 @@ body {
 }
 
 .weather .btn {
-  background: #885df1;
+  background: #b667f1;
   border: none;
   cursor: pointer;
   font-size: 16px;
@@ -54,8 +54,7 @@ body {
   padding: 15px 0;
 }
 .weather .btn:hover {
-  background: #fff;
-  color: #885df1;
+  background-color: #b667f1;
   text-decoration: none;
   transition: all 0.15s ease-in-out;
 }
@@ -84,7 +83,7 @@ body {
   margin-bottom: 5px;
 }
 .weather li strong {
-  color: #f65282;
+  color: #ff5c8d;
   font-weight: 400;
 }
 .temperature-container {
@@ -127,7 +126,7 @@ body {
   margin: 20px auto;
 }
 .forecast-temperature {
-  color: #f65282;
+  color: #ff5c8d;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
