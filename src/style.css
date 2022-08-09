@@ -86,6 +86,7 @@ body {
   line-height: 20px;
   list-style: none;
   margin-bottom: 5px;
+  text-transform: capitalize;
 }
 .weather li strong {
   color: #ff5c8d;
@@ -106,7 +107,7 @@ body {
   margin-left: 10px;
   margin-right: -20px;
 }
-.unit {
+.units {
   color: #fff;
   font-size: 28px;
   font-weight: 400;
