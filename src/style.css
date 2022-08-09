@@ -88,16 +88,18 @@ body {
   margin-bottom: 5px;
   text-transform: capitalize;
 }
+
 .weather li strong {
   color: #ff5c8d;
   font-weight: 400;
 }
 .temperature-container {
-  margin-top: 30px;
+  margin-top: 40px;
 }
 .weather-icon {
   font-size: 60px;
   margin: 10px 0;
+  padding-right: 10px;
 }
 .temperature {
   color: #fff;
@@ -106,6 +108,7 @@ body {
   line-height: 1;
   margin-left: 10px;
   margin-right: -20px;
+  padding-right: 20px;
 }
 .units {
   color: #fff;

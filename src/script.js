@@ -1,4 +1,12 @@
-// Initialize and invoke displayTemperature function
+// Create formatDate function to receive timestamp data
+function formatDate(timestamp) {
+  let date = new Date(timestamp);
+  let hours = date.getHours();
+  let minutes = date.getMinutes();
+  let day = date.getDay();
+  return `${day} ${hours}:${minutes}`;
+}
+// Initialize and invoke displayTemperature function that pulls data from OpenWeatherMap
 function displayTemperature(response) {
   console.log(response.data);
   let temperatureElement = document.querySelector("#temperature"); // selecting temperature that alters
@@ -11,6 +19,8 @@ function displayTemperature(response) {
   humidityElement.innerHTML = Math.round(response.data.main.humidity);
   let windElement = document.querySelector("#wind");
   windElement.innerHTML = Math.round(response.data.wind.speed);
+  let dateElement = document.querySelector("#date");
+  dateElement.innerHTML = formatDate(response.data.dt * 1000);
 }
 
 let apiKey = "eb2ee96fce77dd8a4eaad97e550c01d8";
