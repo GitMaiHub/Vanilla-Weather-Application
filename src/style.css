@@ -121,6 +121,16 @@ body {
   position: relative;
   top: -34px;
 }
+a {
+  color: #fff;
+  text-decoration: none;
+  cursor: dafault;
+}
+a:hover {
+  color: #b667f1;
+  text-decoration: none;
+  cursor: dafault;
+}
 hr {
   border: 1px dotted #fff;
 }
