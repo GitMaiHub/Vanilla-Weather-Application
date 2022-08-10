@@ -55,7 +55,7 @@ function handleSubmit(event) {
   let cityInputElement = document.querySelector("#city-input");
   search(cityInputElement.value);
 }
-// Takes care of temperature conversion from Celsius to Fahrenheit
+// Take care of temperature conversion from Celsius to Fahrenheit
 function displayFahrenheitTemperature(event) {
   event.preventDefault();
   celsiusLink.classList.remove("active"); // when F degree is shown, C link does not appear active
