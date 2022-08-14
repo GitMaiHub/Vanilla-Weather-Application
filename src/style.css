@@ -4,18 +4,18 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.app {
-  box-sizing: border-box;
-  display: block;
-  max-width: 800px;
-  margin: 100px auto;
-}
 .container {
   box-sizing: border-box;
   display: block;
   padding-right: 15px;
   padding-left: 15px;
   width: 100%;
+}
+.app {
+  box-sizing: border-box;
+  display: block;
+  max-width: 800px;
+  margin: 100px auto;
 }
 .weather {
   background: #002b5b;
@@ -92,7 +92,11 @@ body {
   text-transform: capitalize;
 }
 
-.weather li strong {
+.humidity {
+  color: #ff5c8d;
+  font-weight: 400;
+}
+.wind {
   color: #ff5c8d;
   font-weight: 400;
 }
