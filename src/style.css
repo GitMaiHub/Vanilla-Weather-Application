@@ -211,3 +211,12 @@ img {
     top: -20px;
   }
 }
+@media (max-width: 420px) {
+  
+  .temperature-container {
+    margin-top: 70px;
+  }
+  img {
+    display: none;
+  }
+}
